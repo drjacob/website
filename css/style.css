@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yI9FRzo/animated-purple-smoke-or-gas-slowly-rising-against-transparent-background-in-4k-alpha-channel-embedded-with-4k-png-file_smmblt2v__F0014.png");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: -0px;
+	position: relative;
+    z-index: -10;
+}
+
+#header {
+	position: top;
+	transform: (-50%, -50%);
+}
+
+#header > h1 {
+	color: #fff;
+	font-family: 'Mali', cursive;
+	font-weight: bold;
+	margin-top: -100px;
+}
+
+#header > h2 {
+	font-family: 'Mali', cursive;
+}
+
+#hero > a {
+	margin-top: 15px;
+	align-items: center;
+}
